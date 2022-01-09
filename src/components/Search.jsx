@@ -12,7 +12,9 @@ const Search = () =>{
     const [data,setData] = useState('')
     const ref = useRef(null)
     return(
-        <input type="text" ref={ref} id='weatherCitySearch' value={data} onKeyUp={(e) =>e.key=='Enter'? clearData(e) :null } onChange={(e)=>{e.preventDefault();setData(e.target.value)}} onFocus={e=>searchCssChanger(e,ref,true)} onBlur={e => searchCssChanger(e,ref,false)} placeholder="search by city....."/>
+        <div id='weatherImage'>
+            <input type="text" ref={ref} id='weatherCitySearch' value={data} onKeyUp={(e) =>e.key=='Enter'? clearData(e) :null } onChange={(e)=>{e.preventDefault();setData(e.target.value)}} onFocus={e=>searchCssChanger(e,ref,true)} onBlur={e => searchCssChanger(e,ref,false)} placeholder="search by city....."/>
+        </div>
     )
 }
 

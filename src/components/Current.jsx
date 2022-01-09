@@ -35,7 +35,7 @@ return(
   <div id='weatherCurrentData'>
     <button aria-label='justify' title='Refresh' onClick={(e) =>{e.preventDefault();setRefresh(!Refresh)}}><FontAwesomeIcon icon={faSyncAlt}/></button>
     <h1>{Data ? Data.data.name : ''}</h1>
-    <div id='data'>{Data ? Math.round(parseInt(Data.data.main.temp)-273.15): ''}</div>
+    <div id='data'>{Data ? Math.round(parseInt(Data.data.main.temp)-273.15): ''}<span>&#8451;</span></div>
   </div>
 )
 }
