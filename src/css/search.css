@@ -1,0 +1,12 @@
+#weatherCitySearch{
+    display: block;
+    top: 20px;
+    padding: 8px;
+    width: 30vw;
+    margin:0 auto;
+    height:25px;
+    border: 1px solid rgba(128, 128, 128,0.4);
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128,0.3);
+    margin-bottom:30px;
+}

@@ -7,8 +7,8 @@ const App = () =>{
     <>
         <SearchContextProvider>
             <Search />
+            <Current/>
         </SearchContextProvider>
-        <Current/>
     </>
     )
 }

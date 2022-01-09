@@ -1,0 +1,22 @@
+#weatherCurrentData{
+    width:50vw;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+#weatherCurrentData button{
+    display: inline;
+    float: right;
+    border: none;
+    width: 2.5vw;
+    height:2.5vw;
+    border-radius: 2.5vw;
+    background-color: grey;
+    color: white;
+}
+
+h1{
+    padding-top: 0;
+    margin-top: 0px;
+}
